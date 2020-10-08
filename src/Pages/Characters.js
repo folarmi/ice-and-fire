@@ -28,12 +28,12 @@ const Characters = () => {
                 <h1>Character List</h1>
             </div>
             <div className="all-characters">
-                {characters.map(book => {
+                {characters.map(character => {
                     return <Character key={uuid()}
                         image={"https://i.pinimg.com/originals/70/4e/1d/704e1d8384aa4b165547e61979d4f15b.jpg"}
-                        name={book.name}
-                        author={book.authors}
-                        console={book.count}
+                        aliases={character.aliases}
+                        gender={character.gender}
+                        culture={character.culture}
                     />
                 })}
             </div>

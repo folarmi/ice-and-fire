@@ -9,8 +9,9 @@ const Character = (props) => {
                 <img src={props.image} class="card__image" />
                 <p className="card_name"></p>
                 <div className="book-info">
-                    <h4>Character Name:</h4> <p>{props.name}</p>
-                    <h4>Gender:</h4> <p>{props.gender}</p>
+                    <h4>Aliases: {props.aliases}</h4>
+                    <h4>Gender: {props.gender}</h4>
+                    <h4>Culture: {props.culture}</h4>
                 </div>
 
             </div>

@@ -8,9 +8,9 @@ const Book = (props) => {
                 <img src={props.image} class="card__image" />
                 <p className="card_name"></p>
                 <div className="book-info">
-                    <h4>Book Name:</h4> <p>{props.name}</p>
-                    <h4>Author:</h4> <p>{props.author}</p>
-                    <h4>Book Count:</h4> <p>{props.count}</p>
+                    <h4>Book Name: {props.name}</h4>
+                    <h4>Author: {props.author}</h4>
+                    <h4>Book Count: {props.count}</h4>
                 </div>
 
             </div>
