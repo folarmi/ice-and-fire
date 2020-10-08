@@ -12,7 +12,6 @@ const Book = (props) => {
                     <h4>Author:</h4> <p>{props.author}</p>
                     <h4>Book Count:</h4> <p>{props.count}</p>
                     <p>{props.id}</p>
-                    <p>{props.character}</p>
                 </div>
 
             </div>

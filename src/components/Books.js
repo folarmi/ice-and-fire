@@ -41,7 +41,6 @@ const Books = () => {
                         author={book.authors}
                         console={book.count}
                         id={book.id}
-                        character={book.characters}
                     />
                 })}
             </div>
