@@ -8,7 +8,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <nav>
+        <h2>IceandFire</h2>
+        <nav class="topnav">
           <ul>
             <li>
               <Link to="/">Books</Link>
