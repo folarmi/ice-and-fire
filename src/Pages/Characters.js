@@ -27,13 +27,13 @@ const Characters = () => {
             <div className="header">
                 <h1>Character List</h1>
             </div>
-            <div className="all-characters">
+            <div className="all-items">
                 {characters.map(character => {
                     return <Character key={uuid()}
                         image={"https://i.pinimg.com/originals/70/4e/1d/704e1d8384aa4b165547e61979d4f15b.jpg"}
                         aliases={character.aliases}
                         gender={character.gender}
-                        culture={character.culture}
+                        culture={character.culture || "Unknown Culture"}
                     />
                 })}
             </div>

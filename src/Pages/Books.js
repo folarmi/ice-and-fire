@@ -27,14 +27,13 @@ const Books = () => {
             <div className="header">
                 <h1>Books List</h1>
             </div>
-            <div className="all-books">
+            <div className="all-items">
                 {books.map(book => {
                     return <Book key={uuid()}
                         image={"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSOZnH2KXR03ElpwIqgYlI07EiQwg7OinBYkA&usqp=CAU"}
                         name={book.name}
                         author={book.authors}
-                        console={book.count}
-                        id={uuid()}
+                        pages={book.numberOfPages}
                     />
                 })}
             </div>

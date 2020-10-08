@@ -10,7 +10,7 @@ const Book = (props) => {
                 <div className="book-info">
                     <h4>Book Name: {props.name}</h4>
                     <h4>Author: {props.author}</h4>
-                    <h4>Book Count: {props.count}</h4>
+                    <h4>Number of Pages: {props.pages}</h4>
                 </div>
 
             </div>
