@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/folarmi.github.io/ice-and-fire/static/css/main.a9d742c4.chunk.css",
+    "main.js": "/folarmi.github.io/ice-and-fire/static/js/main.133167da.chunk.js",
+    "main.js.map": "/folarmi.github.io/ice-and-fire/static/js/main.133167da.chunk.js.map",
+    "runtime-main.js": "/folarmi.github.io/ice-and-fire/static/js/runtime-main.ae485fba.js",
+    "runtime-main.js.map": "/folarmi.github.io/ice-and-fire/static/js/runtime-main.ae485fba.js.map",
+    "static/js/2.8af843f0.chunk.js": "/folarmi.github.io/ice-and-fire/static/js/2.8af843f0.chunk.js",
+    "static/js/2.8af843f0.chunk.js.map": "/folarmi.github.io/ice-and-fire/static/js/2.8af843f0.chunk.js.map",
+    "index.html": "/folarmi.github.io/ice-and-fire/index.html",
+    "precache-manifest.1bdb0739195cc6848c88ea8c8d504f3b.js": "/folarmi.github.io/ice-and-fire/precache-manifest.1bdb0739195cc6848c88ea8c8d504f3b.js",
+    "service-worker.js": "/folarmi.github.io/ice-and-fire/service-worker.js",
+    "static/css/main.a9d742c4.chunk.css.map": "/folarmi.github.io/ice-and-fire/static/css/main.a9d742c4.chunk.css.map",
+    "static/js/2.8af843f0.chunk.js.LICENSE.txt": "/folarmi.github.io/ice-and-fire/static/js/2.8af843f0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae485fba.js",
+    "static/js/2.8af843f0.chunk.js",
+    "static/css/main.a9d742c4.chunk.css",
+    "static/js/main.133167da.chunk.js"
+  ]
+}
